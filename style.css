@@ -1,0 +1,354 @@
+.logo {
+    text-align: center;
+    background-color: rgba(187, 8, 61, 0.877);
+    width: 100%;
+    height: 200px;
+    background-color: #dda601;
+
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao1 {
+    width: 170px;
+    height: 90px;
+    background-color: #dda601;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.botao2 {
+    width: 170px;
+    height: 90px;
+    background-color: #dda601;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.bootao {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+body {
+    background-color: rgb(146, 0, 102);
+}
+
+.categorias {
+    text-align: center;
+    background-color: #dda601;
+    height: 150px;
+}
+
+.casca {
+    width: 200px;
+    height: 60px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.milk {
+    width: 200px;
+    height: 60px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.acai {
+    width: 200px;
+    height: 60px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cimacasca {
+    text-align: center;
+    background-color: #dda601;
+    height: 150px;
+}
+
+.chocolate {
+    width: 600px;
+    height: 200px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+
+    left: 20px;
+    top: 20px;
+}
+
+.info {
+    text-align: center;
+}
+
+.baunilha {
+    width: 600px;
+    height: 200px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foto1 {
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+
+    left: 20px;
+    top: 20px;
+}
+
+.info1 {
+    text-align: center;
+}
+
+.mista {
+    width: 600px;
+    height: 200px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foto2 {
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+
+    left: 20px;
+    top: 20px;
+}
+
+.info2 {
+    text-align: center;
+}
+
+.cimamilk {
+    text-align: center;
+    background-color: #dda601;
+    height: 150px;
+}
+
+.chocolate1 {
+    width: 600px;
+    height: 200px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foto3 {
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+
+    left: 20px;
+    top: 20px;
+}
+
+.info3 {
+    text-align: center;
+}
+
+.morango {
+    width: 600px;
+    height: 200px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foto4 {
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+
+    left: 20px;
+    top: 20px;
+}
+
+.info4 {
+    text-align: center;
+}
+
+.ovo {
+    width: 600px;
+    height: 200px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foto5 {
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+
+    left: 20px;
+    top: 20px;
+}
+
+.info5 {
+    text-align: center;
+}
+
+.cimaacai {
+    text-align: center;
+    background-color: #dda601;
+    height: 150px;
+}
+
+.milkacai {
+    width: 600px;
+    height: 200px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foto6 {
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+
+    left: 20px;
+    top: 20px;
+}
+
+.info6 {
+    text-align: center;
+}
+
+.acaicompleto {
+    width: 600px;
+    height: 200px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foto7 {
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+
+    left: 20px;
+    top: 20px;
+}
+
+.info7 {
+    text-align: center;
+}
+
+.personalizado {
+    width: 600px;
+    height: 200px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foto8 {
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+
+    left: 20px;
+    top: 20px;
+}
+
+.info8 {
+    text-align: center;
+}

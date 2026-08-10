@@ -99,7 +99,7 @@ body {
 }
 
 .chocolate {
-    width: 600px;
+    width: 400px;
     height: 200px;
     background-color: #ffffff;
     color: black;
@@ -109,9 +109,6 @@ body {
     text-align: center;
     margin: 0 auto;
     position: relative;
-    width: 80%;
-    max-width: 600px;
-    box-sizing: border-box;
 }
 
 .foto {

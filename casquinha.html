@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorveteria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="pagina-produtos">
+    <div class="cimacasca">
+
+        <button class="voltar" onclick="history.back()">←</button>
+
+        <h1>Casquinhas</h1>
+    </div>
+
+    <div class="chocolate">
+        
+        
+        <button class="adicionar"
+            onclick="adicionarProduto('Chocolate', 5)">
+                 +
+        </button>
+
+        <img src="casquinha-de-chocolate-05022021111624517024.png" class="foto">
+
+        <div class="info">
+          <h1>Chocolate</h1>
+        <h2><p>R$ 5,00</p></h2>
+        </div>
+
+    </div>
+
+    <div class="baunilha">
+
+        <button class="adicionar"
+            onclick="adicionarProduto('Baunilha', 5)">
+                +
+        </button>
+
+        <img src="casquinha-05022021111654478516.png" class="foto1">
+
+        <div class="info1">
+          <h1>Baunilha</h1>
+        <h2><p>R$ 5,00</p></h2>
+        </div>
+
+    </div>
+
+    <div class="mista">
+
+        <button class="adicionar"
+            onclick="adicionarProduto('Mista', 5)">
+                +
+        </button>
+
+        <img src="casquinha-mista-05022021111209777883.png" class="foto2">
+
+        <div class="info2">
+          <h1>Mista</h1>
+        <h2><p>R$ 5,00</p></h2>
+        </div>
+
+    </div>
+
+    <div class="rodape">
+
+        <div class="carrinho" onclick="window.location.href='carrinho.html'">
+
+            <div class="carrinho-icone-container">
+            <img src="Carrinho.webp" class="icone-carrinho">
+            <span class="contador-carrinho" id="contador-carrinho">0</span>
+        </div>
+
+            <h2>Carrinho</h2>
+
+        </div>
+    </div>
+
+    <div id="mensagem-carrinho" class="fundo-mensagem">
+    <div class="caixa-mensagem">
+        <div class="icone-sucesso">✓</div>
+
+        <h2>Adicionado ao carrinho!</h2>
+
+        <p id="mensagem-produto"></p>
+
+        <button type="button" onclick="fecharMensagemCarrinho()">
+            OK
+        </button>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

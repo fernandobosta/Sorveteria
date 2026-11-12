@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorveteria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="pagina-finalizar">
+
+    <div class="cimafinalizar">
+        
+        <h1>Obrigado pela preferência!</h1>
+    </div>
+
+    <div class="aviso-pagamento">
+        <h2>Efetue o pagamento no caixa</h2>
+
+        <p>Número do pedido</p>
+
+        <h1 id="numero-pedido">#0001</h1>
+    </div>
+
+    <main class="resumo-pedido">
+
+        <h1>Pedido em preparo!</h1>
+
+        <h2>Resumo do Pedido</h2>
+
+        <div id="resumo-itens"></div>
+
+        <div class="resumo-total">
+            <h2>Total do Pedido</h2>
+            <h2 id="resumo-valor-total">R$ 0,00</h2>
+        </div>
+
+    </main>
+
+    <button class="novo-pedido"
+    type="button"
+    onclick="localStorage.removeItem('carrinho'); window.location.href='index.html';">
+
+    <svg width="24" height="24" viewBox="0 0 24 24"
+         fill="none" stroke="currentColor"
+         stroke-width="2" stroke-linecap="round"
+         stroke-linejoin="round">
+        <path d="M3 10L12 3L21 10"/>
+        <path d="M5 9V21H19V9"/>
+        <path d="M9 21V14H15V21"/>
+    </svg>
+
+    Novo Pedido
+</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

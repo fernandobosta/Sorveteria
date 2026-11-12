@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="pagina-produtos">
+    <div class="cimapedido">
+
+    <button class="voltar" onclick="history.back()">←</button>
+
+    <h1>Seus Itens!</h1>
+
+    </div>
+
+    <div id="itens-carrinho"></div>
+
+    <div class="rodape rodape-carrinho">
+
+    <div class="acoes-carrinho">
+
+        <div class="total-pedido">
+            <span>Total do Pedido</span>
+            <strong id="valor-total">R$ 0,00</strong>
+        </div>
+
+        <button class="finalizar-pedido"
+            onclick="window.location.href='finalizado.html'">
+            Finalizar
+        </button>
+
+    </div>
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

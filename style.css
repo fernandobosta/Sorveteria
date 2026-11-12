@@ -1,0 +1,1089 @@
+.logo {
+    text-align: center;
+    background-color: rgba(187, 8, 61, 0.877);
+    width: 100%;
+    height: 200px;
+    background-color: #dda601;
+
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao1 {
+    width: 400px;
+    height: 90px;
+    background-color: #dda601;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.botao2 {
+    width: 400px;
+    height: 90px;
+    background-color: #dda601;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.bootao {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+body {
+    background-color: rgb(146, 0, 102);
+}
+
+.categorias {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #dda601;
+    height: 150px;
+}
+
+.casca {
+    width: 400px;
+    height: 60px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.milk {
+    width: 400px;
+    height: 60px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.acai {
+    width: 400px;
+    height: 60px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cimacasca {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #dda601;
+    height: 150px;
+}
+
+.chocolate {
+    width: 400px;
+    height: 200px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+
+    left: -5px;
+    top: 20px;
+}
+
+.info {
+    text-align: center;
+}
+
+.baunilha {
+    width: 400px;
+    height: 200px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foto1 {
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+
+    left: -5px;
+    top: 20px;
+}
+
+.info1 {
+    text-align: center;
+}
+
+.mista {
+    width: 400px;
+    height: 200px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foto2 {
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+
+    left: -5px;
+    top: 20px;
+}
+
+.info2 {
+    text-align: center;
+}
+
+.cimamilk {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #dda601;
+    height: 150px;
+}
+
+.chocolate1 {
+    width: 400px;
+    height: 200px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foto3 {
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+
+    left: -10px;
+    top: 20px;
+}
+
+.info3 {
+    text-align: center;
+}
+
+.morango {
+    width: 400px;
+    height: 200px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foto4 {
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+
+    left: -10px;
+    top: 20px;
+}
+
+.info4 {
+    text-align: center;
+}
+
+.ovo {
+    width: 400px;
+    height: 200px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foto5 {
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+
+    left: -10px;
+    top: 20px;
+}
+
+.info5 {
+    text-align: center;
+}
+
+.cimaacai {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #dda601;
+    height: 150px;
+}
+
+.milkacai {
+    width: 400px;
+    min-height: 200px;
+    height: auto;
+
+    background-color: white;
+    color: black;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+    text-align: center;
+
+    margin: 0 auto;
+    position: relative;
+}
+
+.foto6 {
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+
+    left: 5px;
+    top: 30px;
+}
+
+.info6 {
+    text-align: center;
+}
+
+.acaicompleto {
+    width: 400px;
+    height: 200px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foto7 {
+    width: 130px;
+    height: 130px;
+
+    position: absolute;
+
+    left: 20px;
+    top: 60px;
+}
+
+.info7 {
+    text-align: center;
+}
+
+.personalizado {
+    width: 400px;
+    min-height: 200px;
+    height: auto;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foto8 {
+    width: 130px;
+    height: 130px;
+
+    position: absolute;
+
+    left: 20px;
+    top: 60px;
+}
+
+.info8 {
+    text-align: center;
+}
+
+.rodape {
+    height: 150px;
+    background-color: #dda601;
+    margin-top: 30px;
+}
+
+.carrinho {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 70px;
+    height: 100%;
+}
+
+.icone-carrinho {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+.voltar {
+    position: absolute;
+    left: 30px;
+
+    background: none;
+    border: none;
+
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.adicionar {
+    position: absolute;
+
+    right: 40px;
+    top: 45px;
+
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 45%;
+
+    background-color: #e9b000;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.personalizar {
+    margin-left: 145px;
+    padding: 5px;
+
+    background-color: white;
+    border: 2px solid #eeb000;
+    border-radius: 5px;
+}
+
+#opcoes1 {
+    display: none;
+
+    position: static;
+
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 20px;
+
+    background-color: white;
+
+    border-top: 2px solid #e9b000;
+
+    border-radius: 0 0 5px 5px;
+}
+
+#opcoes1 label {
+    display: block;
+    margin: 12px 0;
+    font-size: 18px;
+}
+
+#opcoes2 {
+    display: none;
+    position: static;
+
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 20px;
+    margin-top: 0;
+
+    background-color: white;
+    border-top: 2px solid #e9b000;
+    border-radius: 0 0 5px 5px;
+}
+
+#opcoes2 label {
+    display: block;
+    margin: 12px 0;
+    font-size: 18px;
+}
+
+.cimapedido {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #dda601;
+    height: 150px;
+}
+
+.conteudo-milk {
+    position: relative;
+    height: 200px;
+}
+
+#opcoes1 .fechar,
+#opcoes2 .fechar {
+    display: block;
+    margin-left: auto;
+
+    background-color: #e9b000;
+    border: none;
+    border-radius: 5px;
+
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.botoes-opcoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.botoes-opcoes button {
+    background-color: #e9b000;
+    border: none;
+    border-radius: 5px;
+
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+body.pagina-categorias {
+    min-height: 100vh;
+    min-height: 100dvh;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+body.pagina-categorias > .rodape {
+    margin-top: auto;
+    flex-shrink: 0;
+}
+
+.pagina-categorias .casca,
+.pagina-categorias .milk,
+.pagina-categorias .acai {
+    flex-shrink: 0;
+}
+
+.pagina-categorias .casca {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.pagina-categorias .milk {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pagina-categorias .acai {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.pagina-categorias .casca,
+.pagina-categorias .milk,
+.pagina-categorias .acai {
+    flex-shrink: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pagina-categorias .casca {
+    margin-top: 50px;
+}
+
+.pagina-categorias .milk {
+    margin-top: 60px;
+}
+
+.pagina-categorias .acai {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.pagina-categorias .casca,
+.pagina-categorias .milk,
+.pagina-categorias .acai {
+    height: 90px;
+}
+
+body.pagina-produtos {
+    min-height: 100vh;
+    min-height: 100dvh;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+body.pagina-produtos > .rodape {
+    margin-top: auto;
+    flex-shrink: 0;
+}
+
+.pagina-produtos .milkacai,
+.pagina-produtos .acaicompleto,
+.pagina-produtos .personalizado {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.pagina-produtos .chocolate1,
+.pagina-produtos .morango,
+.pagina-produtos .ovo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    flex-shrink: 0;
+}
+
+.pagina-produtos .chocolate,
+.pagina-produtos .baunilha,
+.pagina-produtos .mista {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    flex-shrink: 0;
+}
+
+/* Cartões dos produtos no carrinho */
+
+.item-carrinho {
+    width: min(400px, 90%);
+    min-height: 180px;
+    box-sizing: border-box;
+
+    background-color: white;
+    border-radius: 8px;
+
+    margin: 20px auto;
+    padding: 20px;
+
+    color: black;
+    position: relative;
+}
+
+.imagem-carrinho {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+
+    float: left;
+    margin-right: 20px;
+}
+
+.item-carrinho h2 {
+    margin-top: 0;
+}
+
+.item-carrinho button {
+    background-color: #e9b000;
+    border: none;
+    border-radius: 5px;
+
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* Dois botões do rodapé do carrinho */
+
+.pagina-carrinho .acoes-carrinho {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.pagina-carrinho .total-pedido,
+.pagina-carrinho .finalizar-pedido {
+    width: 220px;
+    min-height: 80px;
+    box-sizing: border-box;
+
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    font-family: inherit;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pagina-carrinho .total-pedido {
+    cursor: default;
+}
+
+.pagina-carrinho .finalizar-pedido {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.pagina-carrinho .total-pedido strong {
+    font-size: 24px;
+}
+
+.rodape-carrinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-carrinho .acoes-carrinho {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.rodape-carrinho .total-pedido,
+.rodape-carrinho .finalizar-pedido {
+    width: 220px;
+    min-height: 80px;
+    box-sizing: border-box;
+
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    font-family: inherit;
+    font-size: 20px;
+    text-align: center;
+}
+
+.rodape-carrinho .total-pedido {
+    cursor: default;
+}
+
+.rodape-carrinho .finalizar-pedido {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.rodape-carrinho .total-pedido strong {
+    font-size: 24px;
+}
+
+body.pagina-finalizar {
+    margin: 0;
+    min-height: 100vh;
+    min-height: 100dvh;
+    background-color: rgb(146, 0, 102);
+}
+
+.cimafinalizar {
+    height: 150px;
+    width: 100%;
+    background-color: #dda601;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cimafinalizar h1 {
+    color: black;
+}
+
+.resumo-pedido {
+    width: min(500px, 90%);
+    box-sizing: border-box;
+
+    margin: 30px auto;
+    padding: 25px;
+
+    background-color: white;
+    border-radius: 10px;
+
+    color: black;
+}
+
+.resumo-pedido > h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.resumo-pedido > h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.resumo-item {
+    padding: 15px 0;
+    border-bottom: 1px solid #dddddd;
+}
+
+.resumo-item h3 {
+    margin: 0 0 10px;
+}
+
+.resumo-item p {
+    margin: 6px 0;
+}
+
+.resumo-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+
+    margin-top: 25px;
+    border-top: 2px solid #dda601;
+    padding-top: 15px;
+}
+
+.resumo-total h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.novo-pedido {
+    display: block;
+
+    width: 220px;
+    height: 60px;
+
+    margin: 25px auto;
+
+    background-color: #dda601;
+    color: black;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.novo-pedido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.novo-pedido svg {
+    flex-shrink: 0;
+}
+
+.tamanhos-milk {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 140px;
+    margin-top: 15px;
+}
+
+.tamanhos-milk .tamanho {
+    width: 45px;
+    height: 35px;
+
+    background-color: white;
+    color: black;
+    border: 2px solid #dda601;
+    border-radius: 5px;
+
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tamanhos-milk .tamanho.ativo {
+    background-color: #dda601;
+    color: black;
+}
+
+.tamanhos-milk-acai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin: 8px 0;
+}
+
+.tamanhos-milk-acai .tamanho {
+    width: 34px;
+    height: 28px;
+    padding: 0;
+
+    background-color: white;
+    color: black;
+    border: 2px solid #dda601;
+    border-radius: 5px;
+
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tamanhos-milk-acai .tamanho.ativo {
+    background-color: #dda601;
+    color: black;
+}
+
+/* Alinhamento dos controles do Milk Shake de Açaí */
+
+
+.milkacai .info6 {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    text-align: center;
+}
+
+.milkacai .tamanhos-milk-acai {
+    position: absolute;
+    left: 46%;
+    top: 105px;
+    bottom: auto;
+    transform: translateX(-50%);
+}
+
+.milkacai .personalizar {
+    position: absolute;
+    left: 50%;
+    top: 145px;
+    bottom: auto;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+.milkacai .tamanhos-milk-acai {
+    left: 55%;
+}
+
+.milkacai .personalizar {
+    left: 55%;
+}
+
+.milkacai .personalizar {
+    position: absolute;
+    left: 67.5%;
+    top: 145px;
+    bottom: auto;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+.milkacai .tamanhos-milk-acai {
+    top: 95px;
+}
+
+.milkacai .preco-milk-acai {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.aviso-pagamento {
+    width: min(600px, 90%);
+    box-sizing: border-box;
+
+    margin: 25px auto 0;
+    padding: 25px;
+
+    background-color: #dda601;
+    color: black;
+
+    border-radius: 10px;
+    text-align: center;
+}
+
+.aviso-pagamento h2 {
+    margin: 0 0 15px;
+    font-size: 26px;
+}
+
+.aviso-pagamento p {
+    margin: 0 0 8px;
+    font-size: 18px;
+}
+
+.aviso-pagamento h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.fundo-mensagem {
+    display: none;
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+
+    background-color: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    justify-content: center;
+    align-items: center;
+}
+
+/* Caixa central */
+
+.caixa-mensagem {
+    width: min(350px, 85%);
+    box-sizing: border-box;
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+    color: black;
+}
+
+.icone-sucesso {
+    font-size: 48px;
+    color: #dda601;
+    font-weight: bold;
+}
+
+.caixa-mensagem h2 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.caixa-mensagem p {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.caixa-mensagem button {
+    width: 140px;
+    height: 45px;
+
+    background-color: #dda601;
+    color: black;
+    border: none;
+    border-radius: 8px;
+
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.carrinho-icone-container {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contador-carrinho {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+
+    min-width: 24px;
+    height: 24px;
+    padding: 0 4px;
+    box-sizing: border-box;
+
+    background-color: #e53935;
+    color: white;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.contador-carrinho {
+    right: 17px;
+}

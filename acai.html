@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorveteria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="pagina-produtos">
+    <div class="cimaacai">
+
+        <button class="voltar" onclick="history.back()">←</button>
+
+        <h1>Açaís</h1>
+    </div>
+
+    <div class="milkacai">
+
+        <div class="conteudo-milk">
+
+            <button class="adicionar"
+                onclick="adicionarMilkShakeAcai()">
+                +
+            </button>
+
+            <img src="acai-shake.webp" class="foto6">
+
+            <div class="info6">
+                <h1>Milk Shake de Açaí</h1>
+                <p class="preco-milk-acai">R$ 14,00</p>
+            </div>
+
+            <div class="tamanhos-milk-acai">
+                <button type="button"
+                    class="tamanho ativo"
+                    onclick="selecionarTamanhoAcai(this, 'P', 14)">
+                    P
+                </button>
+
+                <button type="button"
+                    class="tamanho"
+                    onclick="selecionarTamanhoAcai(this, 'M', 17)">
+                    M
+                </button>
+
+                <button type="button"
+                    class="tamanho"
+                    onclick="selecionarTamanhoAcai(this, 'G', 20)">
+                    G
+                </button>
+            </div>
+
+            <button class="personalizar"
+                onclick="mostrar('opcoes1')">
+                Personalizar
+            </button>
+
+        </div>
+
+        <div id="opcoes1" style="display: none;">
+
+            <button class="fechar"
+                onclick="fechar('opcoes1')">
+                X
+            </button>
+
+            <h2>Escolha seus adicionais</h2>
+
+            <label>
+                <input type="checkbox" value="Morango">
+                Morango
+            </label>
+
+            <label>
+                <input type="checkbox" value="Nutella">
+                Nutella
+            </label>
+
+            <label>
+                <input type="checkbox" value="Oreo">
+                Oreo
+            </label>
+
+            <label>
+                <input type="checkbox" value="Paçoca">
+                Paçoca
+            </label>
+
+            <label>
+                <input type="checkbox" value="Chantilly">
+                Chantilly
+            </label>
+
+            <div class="botoes-opcoes">
+
+                <button type="button"
+                    onclick="cancelarPersonalizacao()">
+                    Cancelar
+                </button>
+
+                <button type="button"
+                    onclick="confirmarPersonalizacao()">
+                    Confirmar
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="acaicompleto">
+
+        <button class="adicionar"
+            onclick="adicionarProduto('Açaí Completo', 17)">
+            +
+        </button>
+
+        <img src="acaii.png" class="foto7">
+
+        <div class="info7">
+            <h1>Açaí Completo</h1>
+            <h2><p>R$ 17,00</p></h2>
+        </div>
+    </div>
+
+    <div class="personalizado">
+
+        <div class="conteudo-personalizado">
+
+            <button class="adicionar"
+                onclick="adicionarProduto('Açaí Personalizado', 17)">
+                +
+            </button>
+
+            <img src="acaii.png" class="foto8">
+
+            <div class="info8">
+                <h1>Personalizado</h1>
+                <h2><p>R$ 17,00</p></h2>
+            </div>
+
+            <button class="personalizar"
+                onclick="mostrar('opcoes2')">
+                Personalizar
+            </button>
+
+        </div>
+
+        <div id="opcoes2" style="display: none;">
+
+            <button class="fechar"
+                onclick="fechar('opcoes2')">
+                X
+            </button>
+
+            <h2>Escolha seus adicionais</h2>
+
+            <label>
+                <input type="checkbox" value="Morango">
+                Morango
+            </label>
+
+            <label>
+                <input type="checkbox" value="Nutella">
+                Nutella
+            </label>
+
+            <label>
+                <input type="checkbox" value="Oreo">
+                Oreo
+            </label>
+
+            <label>
+                <input type="checkbox" value="Paçoca">
+                Paçoca
+            </label>
+
+            <label>
+                <input type="checkbox" value="Chantilly">
+                Chantilly
+            </label>
+
+            <div class="botoes-opcoes">
+
+                <button type="button"
+                    onclick="cancelarPersonalizacao2()">
+                    Cancelar
+                </button>
+
+                <button type="type"
+                    onclick="confirmarPersonalizacao2()">
+                    Confirmar
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="rodape">
+
+        <div class="carrinho" onclick="window.location.href='carrinho.html'">
+
+        <div class="carrinho-icone-container">
+            <img src="Carrinho.webp" class="icone-carrinho">
+            <span class="contador-carrinho" id="contador-carrinho">0</span>
+        </div>
+
+            <h2>Carrinho</h2>
+
+        </div>
+    </div>
+
+    <div id="mensagem-carrinho" class="fundo-mensagem">
+        <div class="caixa-mensagem">
+            <div class="icone-sucesso">✓</div>
+
+            <h2>Adicionado ao carrinho!</h2>
+
+            <p id="mensagem-produto"></p>
+
+            <button type="button" onclick="fecharMensagemCarrinho()">
+                OK
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
